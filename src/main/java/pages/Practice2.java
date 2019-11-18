@@ -14,7 +14,7 @@ public void  beforeMethod() {
 }
 
 @Test
-public void test() {
+public void test1() {
 	System.out.println("test case 1 dog");
 }
 
