@@ -54,7 +54,7 @@ public class TestBase {
 		File srcfile=((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 		// FileUtils.copyFile(SrcFile, DestFile);
 	//	FileHandler.copy(srcfile, new File("C:\\WorkSpace\\BookTicket\\screenShot"));
-		FileUtils.copyFile(srcfile, new File("C:\\WorkSpace\\BookTicket\\screenShot\\"+"failshot"+this.getClass().getName()+"_"+".jpg"));
+		FileUtils.copyFile(srcfile, new File("C:\\WorkSpace\\BookTicket\\screenShot\\"+"failshot_"+this.getClass().getName()+"_"+".jpg"));
 		
 	}
 	
