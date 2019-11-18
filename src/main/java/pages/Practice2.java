@@ -18,6 +18,11 @@ public void test1() {
 	System.out.println("test case 1 dog");
 }
 
+@Test
+public void test2() {
+	System.out.println("test case 2 cat");
+}
+
 
 @AfterMethod
 public void afterMethod() {
