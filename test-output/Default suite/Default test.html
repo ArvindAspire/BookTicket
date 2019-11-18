@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>2/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Nov 18 21:38:24 IST 2019</td>
+<td>Started on:</td><td>Mon Nov 18 23:54:41 IST 2019</td>
 </tr>
-<tr><td>Total time:</td><td>20 seconds (20723 ms)</td>
+<tr><td>Total time:</td><td>0 seconds (65 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,44 +75,18 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='testClass.CheckBookedTicketPrice.StablePrice()'><b>StablePrice</b><br>Test class: testClass.CheckBookedTicketPrice</td>
-<td><div><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;p data-cy=&quot;submit&quot; class=&quot;makeFlex vrtlCenter &quot;&gt;...&lt;/p&gt; is not clickable at point (631, 377). Other element would receive the click: &lt;iframe name=&quot;notification-frame-b8a49a11&quot; id=&quot;webklipper-publisher-widget-container-notification-frame&quot; frameborder=&quot;0&quot; marginheight=&quot;0&quot; marginwidth=&quot;0&quot; style=&quot;display: block; z-index: 16776272; position: fixed; visibility: visible; height: 100%; width: 100%; top: 0px; left: 0px; right: auto;&quot; data-notification-layout-id=&quot;~184fc0b7&quot; data-notification-layout-name=&quot;modal&quot;&gt;&lt;/iframe&gt;
-  (Session info: chrome=78.0.3904.97)
-Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
-System info: host: &apos;ARVINDTOMAR&apos;, ip: &apos;192.168.0.6&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13.0.1&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.97, chrome: {chromedriverVersion: 77.0.3865.10 (bc3579f611bbc..., userDataDir: C:\Users\arvin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49688}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: c687d1d1e3a0f646ba1c3eed2309e00c
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at com.sun.proxy.$Proxy12.click(Unknown Source)
-	at pages.Homepage.CreateFlightTicket(Homepage.java:89)
-	at testClass.CheckBookedTicketPrice.StablePrice(CheckBookedTicketPrice.java:42)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+<td title='pages.Practice2.test1()'><b>test1</b><br>Test class: pages.Practice2</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;animal&apos; is required by @Test on method test1 but has not been marked @Optional or defined
+in C:\Users\arvin\AppData\Local\Temp\testng-eclipse-859079515\testng-customsuite.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:289)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:377)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:721)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:895)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:762)
+	at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:60)
+	at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:39)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:771)
 	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
@@ -132,44 +106,18 @@ Session ID: c687d1d1e3a0f646ba1c3eed2309e00c
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1056862342", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1056862342'><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;p data-cy=&quot;submit&quot; class=&quot;makeFlex vrtlCenter &quot;&gt;...&lt;/p&gt; is not clickable at point (631, 377). Other element would receive the click: &lt;iframe name=&quot;notification-frame-b8a49a11&quot; id=&quot;webklipper-publisher-widget-container-notification-frame&quot; frameborder=&quot;0&quot; marginheight=&quot;0&quot; marginwidth=&quot;0&quot; style=&quot;display: block; z-index: 16776272; position: fixed; visibility: visible; height: 100%; width: 100%; top: 0px; left: 0px; right: auto;&quot; data-notification-layout-id=&quot;~184fc0b7&quot; data-notification-layout-name=&quot;modal&quot;&gt;&lt;/iframe&gt;
-  (Session info: chrome=78.0.3904.97)
-Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
-System info: host: &apos;ARVINDTOMAR&apos;, ip: &apos;192.168.0.6&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13.0.1&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.97, chrome: {chromedriverVersion: 77.0.3865.10 (bc3579f611bbc..., userDataDir: C:\Users\arvin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49688}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: c687d1d1e3a0f646ba1c3eed2309e00c
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at com.sun.proxy.$Proxy12.click(Unknown Source)
-	at pages.Homepage.CreateFlightTicket(Homepage.java:89)
-	at testClass.CheckBookedTicketPrice.StablePrice(CheckBookedTicketPrice.java:42)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+</pre></div><a href='#' onClick='toggleBox("stack-trace105374791", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace105374791'><pre>org.testng.TestNGException: 
+Parameter &apos;animal&apos; is required by @Test on method test1 but has not been marked @Optional or defined
+in C:\Users\arvin\AppData\Local\Temp\testng-eclipse-859079515\testng-customsuite.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:289)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:377)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:721)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:895)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:762)
+	at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:60)
+	at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:39)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:771)
 	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
@@ -190,8 +138,26 @@ Session ID: c687d1d1e3a0f646ba1c3eed2309e00c
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>14</td>
-<td>testClass.CheckBookedTicketPrice@1fe20588</td></tr>
+<td>0</td>
+<td>pages.Practice2@124c278f</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='pages.Practice2.test2()'><b>test2</b><br>Test class: pages.Practice2<br>Parameters: lion</td>
+<td></td>
+<td>0</td>
+<td>pages.Practice2@124c278f</td></tr>
+<tr>
+<td title='pages.Practice2.test2()'><b>test2</b><br>Test class: pages.Practice2<br>Parameters: tiger</td>
+<td></td>
+<td>0</td>
+<td>pages.Practice2@124c278f</td></tr>
 </table><p>
 </body>
 </html>

@@ -5,12 +5,8 @@
 	
 	<test name="Test">
 	
-		<classes>
-			<class name="pages.Practice2" >
-				<!-- <methods>
-				<include name="test1"></include>
-				</methods> -->
-			</class>
-		</classes>
+		<packages>
+      <package name="Practice2" />
+   </packages>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->
